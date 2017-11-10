@@ -32,10 +32,9 @@
 
 #Expresiones regulares
 "Pepita es una golondrina que come y vuela" =~ /es/    #7
-"Pepita es una golondrina que come y vuela" =~ /un./   #10
+"Pepita es una golondrina que come y vuela" =~ /u.a/   #10
 "Pepita es una golondrina que come y vuela" =~ /g.a/   #nil  
 "Pepita es una golondrina que come y vuela" =~ /g.*a/  #14
-
 
 #Heredoc
 
