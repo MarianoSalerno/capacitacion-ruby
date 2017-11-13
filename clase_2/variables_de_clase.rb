@@ -16,4 +16,4 @@ end
 
 puts Animal.peso_default
 puts Golondrina.peso_default
-puts Golondrina.peso_default
+puts Colibri.peso_default
