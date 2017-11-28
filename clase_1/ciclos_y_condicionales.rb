@@ -6,11 +6,13 @@ else
   "no"
 end
 
-if "monte hermoso".count < 3
+unless "monte hermoso".count < 3
   "si"
 else
   "no"
 end
+
+"si" unless "monte hermoso".count < 3
 
 #Ternario
 
@@ -50,4 +52,3 @@ until i > array.count
   puts i
   i+=1
 end
-

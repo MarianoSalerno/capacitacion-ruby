@@ -6,12 +6,12 @@ class Animal
   end
 end
 
-class Golondrina < Animal
-  @@peso_default = 10
-end
-
 class Colibri < Animal
   @@peso_default = 1
+end
+
+class Golondrina < Animal
+  @@peso_default = 10
 end
 
 puts Animal.peso_default

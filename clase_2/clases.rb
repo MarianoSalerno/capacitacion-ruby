@@ -1,6 +1,7 @@
 class Animal
 
-  attr_reader :peso, :energia
+  attr_reader :peso
+  attr_accessor :energia
 
   def initialize peso, ciudad
     @energia = 20
