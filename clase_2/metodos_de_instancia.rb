@@ -21,5 +21,6 @@ end
 puts Persona.new.nombre_completo_splat("Mariano", "Roque", "Salerno")
 puts Persona.new.nombre_completo(*["Mariano", "Roque", "Salerno"])
 puts Persona.new.nombre_completo_named(nombre: "Mariano", apellido: "Salerno")
-el_carlos = Persona.new.nombre_completo_splat("Carlos", "Saul")
+el_carlos = Persona.new
+el_carlos.nombre_completo_splat("Carlos", "Saul")
 puts "MONTE HERMOSO" if el_carlos.es_mufa?

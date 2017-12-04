@@ -10,6 +10,10 @@ class Golondrina
     @energia = Golondrina.energia_base
   end
 
+  def energia
+    @energia
+  end
+
   def vola
     puts "VOLA"
   end
@@ -19,6 +23,8 @@ end
 pepita = Golondrina.new
 
 puts pepita.energia
+puts pepita.to_s
+pepita.sarasa
 
 def pepita.vola
   puts "CHAJA"
