@@ -1,12 +1,12 @@
 class Animal
 
   def comer
-    raise AbstractMethodException
+    raise NotYetImplemented
   end
 
 end
 
-class AbstractMethodException < StandardError
+class NotYetImplemented < StandardError
   def message
     "Este metodo es abstracto, deben definirlo las subclases"
   end
@@ -14,7 +14,7 @@ end
 
 begin
   Animal.new.comer
-rescue AbstractMethodException => e
+rescue NotYetImplemented => e
   puts e.message
   puts e.backtrace  
 end
